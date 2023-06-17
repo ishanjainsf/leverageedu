@@ -1,0 +1,325 @@
+.heroSectionWrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hero_notification {
+  display: flex;
+  position: relative;
+  width: 100%;
+  background-color: #002147;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.hero_notification #p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hero_applyNow {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 2.5px;
+  border-radius: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Here comes the header of the hero section */
+.hero_header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.hero_logo {
+  position: relative;
+  display: flex;
+  margin-left: 15%;
+  width: 20%;
+  justify-content: flex-start;
+  overflow: hidden;
+}
+
+.hero_logoImg {
+  position: relative;
+  height: 35px;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hero_headerItems {
+  position: relative;
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: flex-end;
+  padding: 15px 15px 0px 15px;
+}
+
+.hero_headerItem {
+  position: inherit;
+  width: fit-content;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.hero_search {
+  position: relative;
+  padding: 5px 8px 5px 8px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.hero_searchPerson {
+  position: relative;
+  padding: 5px 8px 5px 8px;
+  border-radius: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  margin-right: 25px;
+  background-color: #c3cad3;
+}
+
+.hero_contentSection {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  margin-top: 25px;
+  background-color: #000a16;
+  padding-bottom: 25px;
+}
+
+.hero_content {
+  position: relative;
+  width: 40%;
+  display: flex;
+  margin-left: 15%;
+  flex-direction: column;
+}
+
+.hero_content h1 {
+  position: relative;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.hero_info1 {
+  position: relative;
+  font-size: 18px;
+  width: 85%;
+}
+
+.hero_contentHotstar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.hero_contentHotstar p {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hero_hotstarLogo {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 5px;
+}
+
+.hero_hotstarLiveBtn {
+  position: relative;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  margin-top: 25px;
+  background: linear-gradient(135deg, #0e1c37 0%, #2874f0 100%);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero_talkToExpertBtn {
+  position: relative;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  padding: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero_info2 {
+  position: relative;
+  font-size: 12px;
+  margin-top: 15px;
+  color: grey;
+}
+
+.hero_info3 {
+  position: relative;
+  font-size: 12px;
+  margin-top: 55px;
+  color: grey;
+}
+
+.hero_brandLogosWrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.brandPartnerLogo {
+  position: relative;
+  width: auto;
+  height: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 15px;
+}
+
+.hero_imageWrapper {
+  position: relative;
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+}
+
+.hero_globalCitizensImgWrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.images-wrapper {
+  display: flex;
+  transition: transform 0.3s ease;
+  transform: translateX(0);
+}
+
+.image-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-item img {
+  position: relative;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.scroll-button.prev {
+  left: 10px;
+}
+
+.scroll-button.next {
+  right: 10px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  border: none; /* Remove borders */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow effect */
+}
+
+.image.expanded {
+  filter: blur(1.5px); /* Apply desired blur effect */
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  color: white;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.play-button i {
+  pointer-events: none; /* Prevent icon from being clickable */
+}
+
+/* Whatsapp logo*/
+.hero_whatsappChat {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  top: 90%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.hero_whatsappLogo {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
